@@ -1,0 +1,169 @@
+[2023-11-01T12:41:53.836+0000] {processor.py:157} INFO - Started process (PID=42) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:41:53.837+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:41:53.840+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:41:53.840+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:41:53.931+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:41:54.149+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:41:54.149+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:41:54.175+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:41:54.175+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-30T23:00:00+00:00, run_after=2023-10-31T23:00:00+00:00
+[2023-11-01T12:41:54.213+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.381 seconds
+[2023-11-01T12:42:24.462+0000] {processor.py:157} INFO - Started process (PID=59) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:42:24.465+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:42:24.474+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:42:24.472+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:42:24.559+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:42:24.640+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:42:24.639+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:42:24.682+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:42:24.682+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:42:24.716+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.271 seconds
+[2023-11-01T12:42:54.974+0000] {processor.py:157} INFO - Started process (PID=77) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:42:54.976+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:42:54.982+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:42:54.978+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:42:55.036+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:42:55.074+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:42:55.074+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:42:55.103+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:42:55.103+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:42:55.122+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.151 seconds
+[2023-11-01T12:43:25.177+0000] {processor.py:157} INFO - Started process (PID=85) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:43:25.178+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:43:25.184+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:43:25.183+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:43:25.248+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:43:25.471+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:43:25.470+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:43:25.488+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:43:25.488+0000] {dag.py:2963} INFO - Creating ORM DAG for Nyc_Yellow_Taxi
+[2023-11-01T12:43:25.505+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:43:25.505+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-30T23:00:00+00:00, run_after=2023-10-31T23:00:00+00:00
+[2023-11-01T12:43:25.532+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.361 seconds
+[2023-11-01T12:43:55.767+0000] {processor.py:157} INFO - Started process (PID=131) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:43:55.769+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:43:55.778+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:43:55.777+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:43:55.906+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:43:56.027+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:43:56.027+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:43:56.153+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:43:56.153+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:43:56.187+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.434 seconds
+[2023-11-01T12:44:26.447+0000] {processor.py:157} INFO - Started process (PID=149) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:44:26.448+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:44:26.450+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:44:26.449+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:44:26.503+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:44:26.530+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:44:26.530+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:44:26.551+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:44:26.551+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:44:26.567+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.124 seconds
+[2023-11-01T12:44:56.652+0000] {processor.py:157} INFO - Started process (PID=157) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:44:56.653+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:44:56.655+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:44:56.655+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:44:56.716+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:44:56.748+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:44:56.748+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:44:56.774+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:44:56.773+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:44:56.793+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.144 seconds
+[2023-11-01T12:45:27.006+0000] {processor.py:157} INFO - Started process (PID=165) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:45:27.007+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:45:27.009+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:45:27.009+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:45:27.053+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:45:27.079+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:45:27.079+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:45:27.099+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:45:27.099+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:45:27.123+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.119 seconds
+[2023-11-01T12:45:57.259+0000] {processor.py:157} INFO - Started process (PID=173) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:45:57.260+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:45:57.262+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:45:57.262+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:45:57.314+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:45:57.343+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:45:57.343+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:45:57.364+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:45:57.363+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:45:57.391+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.135 seconds
+[2023-11-01T12:46:27.539+0000] {processor.py:157} INFO - Started process (PID=181) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:46:27.540+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:46:27.542+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:46:27.542+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:46:27.590+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:46:27.618+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:46:27.618+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:46:27.638+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:46:27.638+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:46:27.667+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.131 seconds
+[2023-11-01T12:46:57.907+0000] {processor.py:157} INFO - Started process (PID=189) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:46:57.908+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:46:57.910+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:46:57.910+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:46:57.955+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:46:57.983+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:46:57.983+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:46:58.003+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:46:58.003+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:46:58.019+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.115 seconds
+[2023-11-01T12:47:28.175+0000] {processor.py:157} INFO - Started process (PID=197) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:47:28.175+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:47:28.177+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:47:28.177+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:47:28.219+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:47:28.248+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:47:28.248+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:47:28.269+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:47:28.268+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:47:28.286+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.114 seconds
+[2023-11-01T12:47:58.464+0000] {processor.py:157} INFO - Started process (PID=205) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:47:58.465+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:47:58.467+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:47:58.467+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:47:58.512+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:47:58.539+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:47:58.539+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:47:58.560+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:47:58.560+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:47:58.585+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.124 seconds
+[2023-11-01T12:48:28.712+0000] {processor.py:157} INFO - Started process (PID=213) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:48:28.712+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:48:28.714+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:48:28.714+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:48:28.753+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:48:28.781+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:48:28.781+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:48:28.800+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:48:28.800+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:48:28.827+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.118 seconds
+[2023-11-01T12:48:59.066+0000] {processor.py:157} INFO - Started process (PID=221) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:48:59.067+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:48:59.069+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:48:59.069+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:48:59.110+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:48:59.138+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:48:59.138+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:48:59.160+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:48:59.160+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:48:59.187+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.125 seconds
+[2023-11-01T12:49:29.292+0000] {processor.py:157} INFO - Started process (PID=229) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:49:29.293+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:49:29.295+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:49:29.294+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:49:29.342+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:49:29.372+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:49:29.372+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:49:29.392+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:49:29.391+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:49:29.418+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.129 seconds
+[2023-11-01T12:49:59.601+0000] {processor.py:157} INFO - Started process (PID=237) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:49:59.602+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:49:59.604+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:49:59.603+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:49:59.646+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:49:59.678+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:49:59.678+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:49:59.700+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:49:59.699+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:49:59.727+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.128 seconds
+[2023-11-01T12:50:29.860+0000] {processor.py:157} INFO - Started process (PID=245) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:50:29.861+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:50:29.863+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:50:29.862+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:50:29.906+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:50:29.934+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:50:29.934+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:50:29.953+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:50:29.953+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:50:29.980+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.122 seconds
+[2023-11-01T12:51:00.149+0000] {processor.py:157} INFO - Started process (PID=253) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:51:00.150+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:51:00.152+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:51:00.151+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:51:00.195+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:51:00.224+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:51:00.224+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:51:00.246+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:51:00.246+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:51:00.273+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.127 seconds
+[2023-11-01T12:51:11.280+0000] {processor.py:157} INFO - Started process (PID=254) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:51:11.281+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:51:11.283+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:51:11.283+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:51:11.340+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:51:11.440+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:51:11.440+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:51:11.459+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:51:11.459+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:51:11.483+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.206 seconds
+[2023-11-01T12:51:13.540+0000] {processor.py:157} INFO - Started process (PID=255) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:51:13.541+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:51:13.543+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:51:13.543+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:51:13.613+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:51:13.624+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:51:13.623+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:51:13.646+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:51:13.646+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:51:13.679+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.141 seconds
+[2023-11-01T12:51:43.775+0000] {processor.py:157} INFO - Started process (PID=263) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:51:43.776+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:51:43.778+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:51:43.778+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:51:43.828+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:51:43.919+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:51:43.919+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:51:43.937+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:51:43.936+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:51:43.969+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.197 seconds
+[2023-11-01T12:52:14.167+0000] {processor.py:157} INFO - Started process (PID=271) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:52:14.168+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:52:14.170+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:52:14.170+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:52:14.215+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:52:14.242+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:52:14.242+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:52:14.263+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:52:14.263+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:52:14.279+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.114 seconds
+[2023-11-01T12:52:44.360+0000] {processor.py:157} INFO - Started process (PID=288) to work on /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:52:44.361+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/yellow_taxi_etl.py for tasks to queue
+[2023-11-01T12:52:44.363+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:52:44.363+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:52:44.408+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Nyc_Yellow_Taxi']) retrieved from /opt/airflow/dags/yellow_taxi_etl.py
+[2023-11-01T12:52:44.441+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:52:44.441+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-01T12:52:44.469+0000] {logging_mixin.py:151} INFO - [2023-11-01T12:52:44.469+0000] {dag.py:3722} INFO - Setting next_dagrun for Nyc_Yellow_Taxi to 2023-10-31T23:00:00+00:00, run_after=2023-11-01T23:00:00+00:00
+[2023-11-01T12:52:44.488+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/yellow_taxi_etl.py took 0.131 seconds

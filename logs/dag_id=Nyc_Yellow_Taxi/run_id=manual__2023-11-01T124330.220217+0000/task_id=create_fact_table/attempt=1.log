@@ -1,0 +1,77 @@
+[2023-11-01T12:43:45.291+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Nyc_Yellow_Taxi.create_fact_table manual__2023-11-01T12:43:30.220217+00:00 [queued]>
+[2023-11-01T12:43:45.303+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Nyc_Yellow_Taxi.create_fact_table manual__2023-11-01T12:43:30.220217+00:00 [queued]>
+[2023-11-01T12:43:45.304+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-01T12:43:45.320+0000] {taskinstance.py:1382} INFO - Executing <Task(SQLExecuteQueryOperator): create_fact_table> on 2023-11-01 12:43:30.220217+00:00
+[2023-11-01T12:43:45.325+0000] {standard_task_runner.py:57} INFO - Started process 346 to run task
+[2023-11-01T12:43:45.329+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Nyc_Yellow_Taxi', 'create_fact_table', 'manual__2023-11-01T12:43:30.220217+00:00', '--job-id', '3736', '--raw', '--subdir', 'DAGS_FOLDER/yellow_taxi_etl.py', '--cfg-path', '/tmp/tmpwhbften8']
+[2023-11-01T12:43:45.330+0000] {standard_task_runner.py:85} INFO - Job 3736: Subtask create_fact_table
+[2023-11-01T12:43:45.386+0000] {task_command.py:416} INFO - Running <TaskInstance: Nyc_Yellow_Taxi.create_fact_table manual__2023-11-01T12:43:30.220217+00:00 [running]> on host 3997903a8e32
+[2023-11-01T12:43:45.465+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Nyc_Yellow_Taxi' AIRFLOW_CTX_TASK_ID='create_fact_table' AIRFLOW_CTX_EXECUTION_DATE='2023-11-01T12:43:30.220217+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-01T12:43:30.220217+00:00'
+[2023-11-01T12:43:45.466+0000] {sql.py:274} INFO - Executing: 
+                USE DATABASE AIRFLOW_NYC_TLC;
+                USE SCHEMA Airflow_Yellow_Taxi;
+                CREATE OR REPLACE TABLE fact_table (
+                                                       VendorID INT PRIMARY KEY,
+                                                       datetime_id INT REFERENCES datetime_dim (datetime_id),	
+                                                       passenger_count_id	INT REFERENCES passenger_count_dim (passenger_count_id),
+                                                       trip_distance_id INT REFERENCES trip_distance_dim (trip_distance_id),	
+                                                       pickup_location_id INT REFERENCES pickup_location_dim (pickup_location_id),
+                                                       dropoff_location_id INT REFERENCES dropoff_location_dim (dropoff_location_id),
+                                                       rate_code_id INT REFERENCES rate_code_dim (rate_code_id),
+                                                       payment_type_id INT REFERENCES payment_type_dim (payment_type_id)
+                                                     )
+                STAGE_FILE_FORMAT = (TYPE = 'PARQUET')
+                COMMENT = 'create fact table'
+
+                
+[2023-11-01T12:43:45.476+0000] {base.py:73} INFO - Using connection ID 'snowflake_default' for task execution.
+[2023-11-01T12:43:46.090+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103: UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+  warn_incompatible_dep(
+
+[2023-11-01T12:43:46.203+0000] {base.py:73} INFO - Using connection ID 'snowflake_default' for task execution.
+[2023-11-01T12:43:46.203+0000] {connection.py:329} INFO - Snowflake Connector for Python Version: 3.2.1, Python Version: 3.8.18, Platform: Linux-5.10.102.1-microsoft-standard-WSL2-x86_64-with-glibc2.2.5
+[2023-11-01T12:43:46.204+0000] {connection.py:1069} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2023-11-01T12:43:46.205+0000] {connection.py:1087} INFO - Setting use_openssl_only mode to False
+[2023-11-01T12:43:46.563+0000] {cursor.py:804} INFO - query: [ALTER SESSION SET autocommit=False]
+[2023-11-01T12:43:46.636+0000] {cursor.py:817} INFO - query execution done
+[2023-11-01T12:43:46.638+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-01T12:43:46.640+0000] {sql.py:418} INFO - Running statement: USE DATABASE AIRFLOW_NYC_TLC;, parameters: {'role': 'ACCOUNTADMIN', 'warehouse': 'AIRFLOW_TLC_WH'}
+[2023-11-01T12:43:46.641+0000] {cursor.py:804} INFO - query: [USE DATABASE AIRFLOW_NYC_TLC;]
+[2023-11-01T12:43:46.722+0000] {cursor.py:817} INFO - query execution done
+[2023-11-01T12:43:46.722+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-01T12:43:46.723+0000] {sql.py:427} INFO - Rows affected: 1
+[2023-11-01T12:43:46.724+0000] {snowflake.py:427} INFO - Rows affected: 1
+[2023-11-01T12:43:46.724+0000] {snowflake.py:428} INFO - Snowflake query id: 01b009bb-0302-15cc-0000-0000a7ede9d5
+[2023-11-01T12:43:46.725+0000] {sql.py:418} INFO - Running statement: USE SCHEMA Airflow_Yellow_Taxi;, parameters: {'role': 'ACCOUNTADMIN', 'warehouse': 'AIRFLOW_TLC_WH'}
+[2023-11-01T12:43:46.725+0000] {cursor.py:804} INFO - query: [USE SCHEMA Airflow_Yellow_Taxi;]
+[2023-11-01T12:43:46.793+0000] {cursor.py:817} INFO - query execution done
+[2023-11-01T12:43:46.794+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-01T12:43:46.794+0000] {sql.py:427} INFO - Rows affected: 1
+[2023-11-01T12:43:46.795+0000] {snowflake.py:427} INFO - Rows affected: 1
+[2023-11-01T12:43:46.795+0000] {snowflake.py:428} INFO - Snowflake query id: 01b009bb-0302-1648-0000-a7ed0001216a
+[2023-11-01T12:43:46.796+0000] {sql.py:418} INFO - Running statement: CREATE OR REPLACE TABLE fact_table (
+                                                       VendorID INT PRIMARY KEY,
+                                                       datetime_id INT REFERENCES datetime_dim (datetime_id),	
+                                                       passenger_count_id	INT REFERENCES passenger_count_dim (passenger_count_id),
+                                                       trip_distance_id INT REFERENCES trip_distance_dim (trip_distance_id),	
+                                                       pickup_location_id INT REFERENCES pickup_location_dim (pickup_location_id),
+                                                       dropoff_location_id INT REFERENCES dropoff_location_dim (dropoff_location_id),
+                                                       rate_code_id INT REFERENCES rate_code_dim (rate_code_id),
+                                                       payment_type_id INT REFERENCES payment_type_dim (payment_type_id)
+                                                     )
+                STAGE_FILE_FORMAT = (TYPE = 'PARQUET')
+                COMMENT = 'create fact table', parameters: {'role': 'ACCOUNTADMIN', 'warehouse': 'AIRFLOW_TLC_WH'}
+[2023-11-01T12:43:46.797+0000] {cursor.py:804} INFO - query: [CREATE OR REPLACE TABLE fact_table ( VendorID INT PRIMARY KEY, datetime_id INT R...]
+[2023-11-01T12:43:47.217+0000] {cursor.py:817} INFO - query execution done
+[2023-11-01T12:43:47.218+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-01T12:43:47.218+0000] {sql.py:427} INFO - Rows affected: 1
+[2023-11-01T12:43:47.219+0000] {snowflake.py:427} INFO - Rows affected: 1
+[2023-11-01T12:43:47.219+0000] {snowflake.py:428} INFO - Snowflake query id: 01b009bb-0302-1393-0000-0000a7edc93d
+[2023-11-01T12:43:47.220+0000] {cursor.py:804} INFO - query: [COMMIT]
+[2023-11-01T12:43:47.268+0000] {cursor.py:817} INFO - query execution done
+[2023-11-01T12:43:47.269+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-01T12:43:47.269+0000] {connection.py:659} INFO - closed
+[2023-11-01T12:43:47.300+0000] {connection.py:665} INFO - No async queries seem to be running, deleting session
+[2023-11-01T12:43:47.374+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Nyc_Yellow_Taxi, task_id=create_fact_table, execution_date=20231101T124330, start_date=20231101T124345, end_date=20231101T124347
+[2023-11-01T12:43:47.429+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-01T12:43:47.487+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

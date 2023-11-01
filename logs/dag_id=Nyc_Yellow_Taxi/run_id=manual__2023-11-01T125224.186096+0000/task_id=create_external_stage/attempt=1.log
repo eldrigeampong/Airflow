@@ -1,0 +1,57 @@
+[2023-11-01T12:52:44.603+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Nyc_Yellow_Taxi.create_external_stage manual__2023-11-01T12:52:24.186096+00:00 [queued]>
+[2023-11-01T12:52:44.613+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Nyc_Yellow_Taxi.create_external_stage manual__2023-11-01T12:52:24.186096+00:00 [queued]>
+[2023-11-01T12:52:44.614+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-01T12:52:44.627+0000] {taskinstance.py:1382} INFO - Executing <Task(SQLExecuteQueryOperator): create_external_stage> on 2023-11-01 12:52:24.186096+00:00
+[2023-11-01T12:52:44.632+0000] {standard_task_runner.py:57} INFO - Started process 696 to run task
+[2023-11-01T12:52:44.634+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Nyc_Yellow_Taxi', 'create_external_stage', 'manual__2023-11-01T12:52:24.186096+00:00', '--job-id', '3771', '--raw', '--subdir', 'DAGS_FOLDER/yellow_taxi_etl.py', '--cfg-path', '/tmp/tmpdn6u_4ec']
+[2023-11-01T12:52:44.635+0000] {standard_task_runner.py:85} INFO - Job 3771: Subtask create_external_stage
+[2023-11-01T12:52:44.678+0000] {task_command.py:416} INFO - Running <TaskInstance: Nyc_Yellow_Taxi.create_external_stage manual__2023-11-01T12:52:24.186096+00:00 [running]> on host 3997903a8e32
+[2023-11-01T12:52:44.750+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Nyc_Yellow_Taxi' AIRFLOW_CTX_TASK_ID='create_external_stage' AIRFLOW_CTX_EXECUTION_DATE='2023-11-01T12:52:24.186096+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-01T12:52:24.186096+00:00'
+[2023-11-01T12:52:44.751+0000] {sql.py:274} INFO - Executing: 
+                         USE SCHEMA AIRFLOW_NYC_TLC.Airflow_Yellow_Taxi;
+                         CREATE OR REPLACE STAGE ***_tlc_aws_s3_stage
+                         STORAGE_INTEGRATION = ***_tlc_aws_s3_int
+                         URL = 's3://nyc-tlc-trip-data/yellow-taxi/'
+                         FILE_FORMAT = (TYPE = 'PARQUET')
+                         COPY_OPTIONS = (ON_ERROR = 'ABORT_STATEMENT')
+                         COMMENT = 'create an aws stage for nyc taxi trip data'
+
+                         
+[2023-11-01T12:52:44.760+0000] {base.py:73} INFO - Using connection ID 'snowflake_default' for task execution.
+[2023-11-01T12:52:45.273+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103: UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+  warn_incompatible_dep(
+
+[2023-11-01T12:52:45.374+0000] {base.py:73} INFO - Using connection ID 'snowflake_default' for task execution.
+[2023-11-01T12:52:45.374+0000] {connection.py:329} INFO - Snowflake Connector for Python Version: 3.2.1, Python Version: 3.8.18, Platform: Linux-5.10.102.1-microsoft-standard-WSL2-x86_64-with-glibc2.2.5
+[2023-11-01T12:52:45.375+0000] {connection.py:1069} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2023-11-01T12:52:45.375+0000] {connection.py:1087} INFO - Setting use_openssl_only mode to False
+[2023-11-01T12:52:45.823+0000] {cursor.py:804} INFO - query: [ALTER SESSION SET autocommit=False]
+[2023-11-01T12:52:45.900+0000] {cursor.py:817} INFO - query execution done
+[2023-11-01T12:52:45.901+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-01T12:52:45.902+0000] {sql.py:418} INFO - Running statement: USE SCHEMA AIRFLOW_NYC_TLC.Airflow_Yellow_Taxi;, parameters: {'role': 'ACCOUNTADMIN', 'warehouse': 'AIRFLOW_TLC_WH'}
+[2023-11-01T12:52:45.902+0000] {cursor.py:804} INFO - query: [USE SCHEMA AIRFLOW_NYC_TLC.Airflow_Yellow_Taxi;]
+[2023-11-01T12:52:46.019+0000] {cursor.py:817} INFO - query execution done
+[2023-11-01T12:52:46.020+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-01T12:52:46.021+0000] {sql.py:427} INFO - Rows affected: 1
+[2023-11-01T12:52:46.021+0000] {snowflake.py:427} INFO - Rows affected: 1
+[2023-11-01T12:52:46.022+0000] {snowflake.py:428} INFO - Snowflake query id: 01b009c4-0302-1393-0000-0000a7edc9dd
+[2023-11-01T12:52:46.022+0000] {sql.py:418} INFO - Running statement: CREATE OR REPLACE STAGE ***_tlc_aws_s3_stage
+                         STORAGE_INTEGRATION = ***_tlc_aws_s3_int
+                         URL = 's3://nyc-tlc-trip-data/yellow-taxi/'
+                         FILE_FORMAT = (TYPE = 'PARQUET')
+                         COPY_OPTIONS = (ON_ERROR = 'ABORT_STATEMENT')
+                         COMMENT = 'create an aws stage for nyc taxi trip data', parameters: {'role': 'ACCOUNTADMIN', 'warehouse': 'AIRFLOW_TLC_WH'}
+[2023-11-01T12:52:46.023+0000] {cursor.py:804} INFO - query: [CREATE OR REPLACE STAGE ***_tlc_aws_s3_stage STORAGE_INTEGRATION = ***_t...]
+[2023-11-01T12:52:46.209+0000] {cursor.py:817} INFO - query execution done
+[2023-11-01T12:52:46.210+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-01T12:52:46.210+0000] {sql.py:427} INFO - Rows affected: 1
+[2023-11-01T12:52:46.211+0000] {snowflake.py:427} INFO - Rows affected: 1
+[2023-11-01T12:52:46.211+0000] {snowflake.py:428} INFO - Snowflake query id: 01b009c4-0302-1648-0000-a7ed000121ee
+[2023-11-01T12:52:46.212+0000] {cursor.py:804} INFO - query: [COMMIT]
+[2023-11-01T12:52:46.265+0000] {cursor.py:817} INFO - query execution done
+[2023-11-01T12:52:46.266+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-01T12:52:46.266+0000] {connection.py:659} INFO - closed
+[2023-11-01T12:52:46.296+0000] {connection.py:665} INFO - No async queries seem to be running, deleting session
+[2023-11-01T12:52:46.368+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Nyc_Yellow_Taxi, task_id=create_external_stage, execution_date=20231101T125224, start_date=20231101T125244, end_date=20231101T125246
+[2023-11-01T12:52:46.414+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-01T12:52:46.460+0000] {taskinstance.py:2778} INFO - 8 downstream tasks scheduled from follow-on schedule check

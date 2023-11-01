@@ -1,0 +1,226 @@
+[2023-11-01T11:58:57.677+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-11-01T11:58:57.678+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-11-01T11:58:57.678+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-11-01T11:58:57.679+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-01T11:58:57.683+0000] {manager.py:758} INFO - There are 0 files in /opt/airflow/dags
+[2023-11-01T12:03:34.169+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2023-11-01T12:04:18.920+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-11-01T12:04:18.920+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-11-01T12:04:18.922+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-11-01T12:04:18.923+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-01T12:04:18.929+0000] {manager.py:758} INFO - There are 0 files in /opt/airflow/dags
+[2023-11-01T12:04:39.209+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2023-11-01T12:04:48.566+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-11-01T12:04:48.567+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-11-01T12:04:48.568+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-11-01T12:04:48.568+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-01T12:04:48.572+0000] {manager.py:758} INFO - There are 0 files in /opt/airflow/dags
+[2023-11-01T12:09:49.287+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-01T12:09:49.292+0000] {manager.py:758} INFO - There are 0 files in /opt/airflow/dags
+[2023-11-01T12:14:02.939+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2023-11-01T12:17:31.989+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-11-01T12:17:32.000+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-11-01T12:17:32.001+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-11-01T12:17:32.001+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-01T12:17:32.005+0000] {manager.py:758} INFO - There are 0 files in /opt/airflow/dags
+[2023-11-01T12:22:32.672+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-01T12:22:32.685+0000] {manager.py:758} INFO - There are 0 files in /opt/airflow/dags
+[2023-11-01T12:27:33.406+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-01T12:27:33.410+0000] {manager.py:758} INFO - There are 0 files in /opt/airflow/dags
+[2023-11-01T12:32:34.055+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-01T12:32:34.065+0000] {manager.py:758} INFO - There are 0 files in /opt/airflow/dags
+[2023-11-01T12:36:46.099+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2023-11-01T12:41:53.619+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-11-01T12:41:53.629+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-11-01T12:41:53.630+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-11-01T12:41:53.630+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-01T12:41:53.735+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2023-11-01T12:41:53.854+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/yellow_taxi_etl.py     42  0.04s             0           0
+================================================================================
+[2023-11-01T12:42:24.031+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py                           1           0  0.40s           2023-11-01T12:41:54
+================================================================================
+[2023-11-01T12:42:54.605+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py                           1           0  0.32s           2023-11-01T12:42:24
+================================================================================
+[2023-11-01T12:43:25.158+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py     85  0.01s             1           0  0.19s           2023-11-01T12:42:55
+================================================================================
+[2023-11-01T12:43:55.506+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py                           1           0  0.39s           2023-11-01T12:43:25
+================================================================================
+[2023-11-01T12:44:25.893+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py                           1           0  0.49s           2023-11-01T12:43:56
+================================================================================
+[2023-11-01T12:44:56.639+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py    157  0.00s             1           0  0.15s           2023-11-01T12:44:26
+================================================================================
+[2023-11-01T12:45:26.994+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py    165  0.00s             1           0  0.16s           2023-11-01T12:44:56
+================================================================================
+[2023-11-01T12:45:57.236+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py    173  0.00s             1           0  0.14s           2023-11-01T12:45:27
+================================================================================
+[2023-11-01T12:46:27.528+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py    181  0.00s             1           0  0.16s           2023-11-01T12:45:57
+================================================================================
+[2023-11-01T12:46:53.720+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-01T12:46:53.800+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2023-11-01T12:46:57.894+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py    189  0.01s             1           0  0.15s           2023-11-01T12:46:27
+================================================================================
+[2023-11-01T12:47:28.163+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py    197  0.00s             1           0  0.14s           2023-11-01T12:46:58
+================================================================================
+[2023-11-01T12:47:58.449+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py    205  0.01s             1           0  0.13s           2023-11-01T12:47:28
+================================================================================
+[2023-11-01T12:48:28.699+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py    213  0.00s             1           0  0.15s           2023-11-01T12:47:58
+================================================================================
+[2023-11-01T12:48:59.050+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py    221  0.01s             1           0  0.14s           2023-11-01T12:48:28
+================================================================================
+[2023-11-01T12:49:29.279+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py    229  0.00s             1           0  0.15s           2023-11-01T12:48:59
+================================================================================
+[2023-11-01T12:49:59.588+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py    237  0.00s             1           0  0.15s           2023-11-01T12:49:29
+================================================================================
+[2023-11-01T12:50:29.847+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py    245  0.00s             1           0  0.15s           2023-11-01T12:49:59
+================================================================================
+[2023-11-01T12:51:00.136+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py    253  0.00s             1           0  0.14s           2023-11-01T12:50:29
+================================================================================
+[2023-11-01T12:51:30.627+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py                           1           0  0.16s           2023-11-01T12:51:13
+================================================================================
+[2023-11-01T12:51:53.920+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-01T12:51:54.007+0000] {manager.py:758} INFO - There are 1 files in /opt/airflow/dags
+[2023-11-01T12:52:01.061+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py                           1           0  0.22s           2023-11-01T12:51:43
+================================================================================
+[2023-11-01T12:52:31.260+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py                           1           0  0.13s           2023-11-01T12:52:14
+================================================================================
+[2023-11-01T12:53:01.553+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/yellow_taxi_etl.py                           1           0  0.15s           2023-11-01T12:52:44
+================================================================================
+[2023-11-01T12:53:12.369+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
